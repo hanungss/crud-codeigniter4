@@ -3,6 +3,7 @@
 use CodeIgniter\Controller;
 use App\Models\PostModel;
 
+
 class Post extends Controller
 {
     /**
@@ -97,7 +98,7 @@ class Post extends Controller
         return view('post-edit', $data);
     }
 
-    /**
+     /**
      * update function
      */
     public function update($id)
