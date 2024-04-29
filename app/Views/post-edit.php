@@ -22,11 +22,11 @@
                     <div class="card-body">
                         <form action="<?php echo base_url('./crud-ci4/public/update/'.$post['id']) ?>" method="POST">
                             <div class="form-group">
-                                <label>TITLE</label>
+                                <label>Nama</label>
                                 <input type="text" class="form-control" name="nama" value="<?php echo $post['nama'] ?>" placeholder="Masukkan Nama">
                             </div>
                             <div class="form-group">
-                                <label>KONTEN</label>
+                                <label>Posisi</label>
                                <textarea class="form-control" name="posisi" rows="4" placeholder="Masukkan Posisi"><?php echo $post['posisi'] ?></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">UPDATE</button>
